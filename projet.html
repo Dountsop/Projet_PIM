@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>inscription a une formation en ligne</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="filecss/projet.css">
+	</head>
+	<body>
+		<!-- <section id="header">
+			<a href="#formee" id="cours" ><div class="header" > cours</div></a>
+			<div class="header" id="search"><input type="search" name="search"></div>
+			<a href="projet.html"><div class="header" id="FOnline">FOnline</div></a>
+			<a href="#form" id="inscription"><div class="header" >inscription</div></a>
+			<a href="#" id="connexion"><div class="header" >connexion</div></a>
+		</section> -->
+
+		<div id="header">
+			<h1>FOnline</h1>
+			<nav>
+				<ul>
+
+					<li><a href="#filire">Cours</a></li>
+					<li><input type="search" name="search" placeholder="search"></li>
+					<li><a href="#form">Inscription</a></li>
+					<li><a href="#">Connexion</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id=form>
+			<div id=headerform>
+				<p>inscription</p>
+			</div>
+			<div id="bodyform">
+				<form method="post" action="traitement.php">
+					<label>votre pseudo</label>
+					<p><input type="text" name="pseudo" placeholder="Ex: Seinsei" id="pseudo" required></p>
+					<label>votre password</label>
+					<p><input type="password" name="password" placeholder="password" class="pass" required></p>
+					<label>verifier votre password</label>
+					<p><input type="password" name="password" placeholder="password againt" class="pass" required></p>
+					<label>saisissez votre email</label>
+					<p><input type="email" name="email" placeholder="email" class="pass" required></p>
+					<label>votre numéro de téléphone</label>
+					<p><input type="tel" name="tel" placeholder="tel" class="pass" required></p>
+					<label>votre date de naissance</label>
+					<p><input type="date" name="date" placeholder="date" class="pass" required></p>
+
+				</form>
+			</div>
+			<div id="footerform">bouton envoyer</div>
+		</div>
+		<section id="slideshow">
+				
+			<div class="container">
+				<div class="slider">
+					<figure>
+						<img src="images/1.png" alt=""  />
+						<figcaption>souscrivez et profitez de toutes nos formations</figcaption>
+
+					</figure><!--
+					--><figure>
+						<img src="images/2.png" alt="" />
+						<figcaption>Formation dispensée par des experts de chaque domaine</figcaption>
+					</figure><!--
+					--><figure>
+						<img src="images/3.png" alt=""  />
+						<figcaption>Participer a notre conférence en ligne</figcaption>
+
+					</figure><!--
+					--><figure>
+						<img src="images/5.png" alt="" />
+						<figcaption>Nous Sommes a votre écoutes H24</figcaption>
+					</figure>
+				</div>
+			</div>
+				
+			<span id="timeline"></span>
+		</section>
+		<!-- <section id="formee">
+			<div class="formation">
+				<img src="images/8.png"> Sécurité Inforaltique: <br><em >15000Frs</em>
+			</div>
+			<div class="formation">
+				<img src="images/16.png">Web Marketing: <br><em >15 000Frs</em>
+			</div>
+			<div class="formation">
+				<img src="images/19.png">Data Analyst: <br><em >25 000Frs</em>
+			</div>
+			<div class="formation">
+				<img src="images/17.png">Administration Réseau: <br><em >20 000Frs</em>
+			</div>
+			<div class="formation">
+				<img src="images/11.png">Gestion de Projet: <br><em >10 000Frs</em>
+			</div>
+			<div class="formation">
+				<img src="images/289.png">formation5
+			</div>
+		</section> -->
+		
+		<div id="conteners">                                      <!-- debut conteneurs des formation -->
+			<h1 id="filire">Nos différents cours par filière</h1>
+			<nav>
+				<ul>
+					<li><a href="#contad" id="reseauu">Administration Réseau</a> </li>
+					<li><a href="#contsec" id="securitee">Sécurité Réseau</a></li>
+					<li><a href="#contweb" id="webmaster">Webmaster</a> </li>
+					<li><a href="#contman" id="management"> Management</a> </li>
+					<li><a href="#contlog" id="logiciel">Génie Logiciel</a></li>
+					<li><a href="#contpropos" id="propos">A Propos</a></li>
+				</ul>
+			</nav>
+			<div id="contenuu">                                        <!-- debut contenuu -->
+				<div id="contad">                                      <!--  foramtion en administration -->
+					<article class="gauche">
+						<h2>01-Administration Réseau</h2>
+
+						<h3>cours de réseau et administration</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor iluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<h3>Nos cours</h3>
+						<ul>
+							<li>Réseau</li>
+							<li>programmation</li>
+							<li>téléphonie</li>
+							<li>traitement de signal</li>
+						</ul>
+						<h2 class="idprix">Prix: 85000Frs</h2>
+						<div> <input type="button" name="suivre" value="suivre"></div>
+					</article>
+					<div class="droite">administration </div>
+				</div> 
+				<div id="contsec">                                              <!--  formation en sécurité -->
+					<article class="gauche">
+						<h2>02-Sécurité</h2>
+
+						<h3>cours de Sécurité informatique</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor iluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<h3>Nos cours</h3>
+						<ul>
+							<li>Cryptographie</li>
+							<li>programmation</li>
+							<li>vpn</li>
+							<li>reseau</li>
+						</ul>
+						<h2 class="idprix">Prix: 45000Frs</h2>
+						<div> <input type="button" name="suivre" value="suivre"></div>
+					</article>
+					<div class="droite">Sécurité</div>
+				</div>
+			<div id="contweb">                                                 <!--  formation en webmaster -->
+				<article class="gauche">
+					<h2>03-webmaster</h2>
+
+					<h3>cours de réseau et administration</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor iluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+					<h3>Nos cours</h3>
+					<ul>
+						<li>Réseau</li>
+						<li>programmation</li>
+						<li>téléphonie</li>
+						<li>traitement de signal</li>
+					</ul>
+					<h2 class="idprix">Prix: 75000Frs</h2>
+					<div> <input type="button" name="suivre" value="suivre"></div>
+				</article>
+				<div class="droite">Webmaster</div>
+			</div>
+			<div id="contman">                                           <!--  formation en management -->
+				<article class="gauche">
+					<h2>04-Management</h2>
+
+					<h3>cours de management</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor iluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+					<h3>Nos cours</h3>
+					<ul>
+						<li>Réseau</li>
+						<li>programmation</li>
+						<li>téléphonie</li>
+						<li>traitement de signal</li>
+					</ul>
+					<h2 class="idprix">Prix: 65000Frs</h2>
+					<div> <input type="button" name="suivre" value="suivre"></div>
+				</article>
+				<div class="droite">management</div>
+			</div>                                                          <!-- fin management-->
+			<div id="contlog">                                              <!--  formation en génie logiciel -->
+				<article class="gauche">
+					<h2>05-Génie Logiciel</h2>
+
+					<h3>cours de génie logiciel</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor iluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+					<h3>Nos cours</h3>
+					<ul>
+						<li>Réseau</li>
+						<li>programmation</li>
+						<li>téléphonie</li>
+						<li>traitement de signal</li>
+					</ul>
+					<h2 class="idprix">Prix: 35000Frs</h2>
+					<div> <input type="button" name="suivre" value="suivre"></div>
+				</article>
+				<div class="droite">Génie Logiciel</div>
+			</div>                                                                   <!-- fin génie lo -->
+				<div id="contpropos">                                                 <!--  a propos -->
+					<article class="gauche">
+						<h2>A Propos</h2>
+
+						<h3>cours de réseau et administration</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor iluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<h3>Nos Objectifs</h3>
+						<ul>
+							<li>Réseau</li>
+							<li>programmation</li>
+							<li>téléphonie</li>
+							<li>traitement de signal</li>
+						</ul>
+						
+					</article>
+					<div class="droite">A Propos</div>
+				</div><!-- fin a propos -->
+			</div> <!-- fin contenuu -->
+		</div> <!-- fin conteneurs des formation -->
+		<footer>
+			&copy; - Edmond Liendji
+		</footer>
+	</body>
+</html>
